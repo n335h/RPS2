@@ -319,6 +319,7 @@ p.scores-center {
 .game-choices {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 50vh;
   margin-top: 5vh;
@@ -331,7 +332,13 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-
+.App{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
   .minilogo {
     width: 80vw;
     margin: 0;
@@ -351,5 +358,19 @@ img {
         flex-direction: column;
         align-items: center;
 
+}
+.button {
+  width: 40vw;
+}
+#button {
+  width: 40vh;
+  height: 100vh;
+}
+#button img {
+  width:20vh;
+}
+
+p.result {
+  font-size: 1.2rem;
 }
 }
