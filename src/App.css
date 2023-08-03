@@ -41,11 +41,12 @@ html {
     margin-bottom: 10px;
   }
    
-  a {
+  #button {
     padding: 10px 20px;
     color: var(--text-color);
     border: none;
     border-radius: 4px;
+    background-color: transparent;
     cursor: pointer;
     transition: all .2s ease-in-out; 
 
@@ -62,7 +63,7 @@ width: 50vw;
 margin-left: 10vw;
 
 }
-button {
+.button {
 height: 5vh;
 width: 7vw;
 border-radius: 10px;
@@ -73,7 +74,7 @@ font-size: 1rem;
 }
 
 
-a:hover { 
+#button:hover { 
 
 animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);

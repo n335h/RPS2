@@ -72,15 +72,17 @@ function App() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
-              <button type="submit">Start Game</button>
+              <button className="button" type="submit">
+                Start Game
+              </button>
             </form>
           </div>
         </div>
       ) : (
         <div className="game-container">
           <div className="game-choices">
-            <a
-              href=""
+            <button
+              id="button"
               className="rock"
               onClick={() => handleGameChoice('rock')}
             >
@@ -88,9 +90,9 @@ function App() {
                 src="https://i.ibb.co/rcg3gtF/rock.png"
                 alt="rock"
               />
-            </a>
-            <a
-              href=""
+            </button>
+            <button
+              id="button"
               className="paper"
               onClick={() => handleGameChoice('paper')}
             >
@@ -98,9 +100,9 @@ function App() {
                 src="https://i.ibb.co/JmmwPDV/paper.png"
                 alt="paper"
               />
-            </a>
-            <a
-              href=""
+            </button>
+            <button
+              id="button"
               className="scissors"
               onClick={() => handleGameChoice('scissors')}
             >
@@ -108,7 +110,7 @@ function App() {
                 src="https://i.ibb.co/bbp7yxQ/scissors.png"
                 alt="scissors"
               />
-            </a>
+            </button>
           </div>
           <div className="game-result">
             <p className="result">{resultText}</p>
@@ -118,7 +120,9 @@ function App() {
               <span className="pcScore">{pcPoints}</span> PC
             </p>
             <div className="reset">
-              <button onClick={handleResetGame}>Reset</button>
+              <button className="button" onClick={handleResetGame}>
+                Reset
+              </button>
             </div>
           </div>
         </div>
