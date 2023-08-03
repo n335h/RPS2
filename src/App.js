@@ -80,7 +80,7 @@ function App() {
         <div className="game-container">
           <div className="game-choices">
             <a
-              href="/"
+              href=""
               className="rock"
               onClick={() => handleGameChoice('rock')}
             >
@@ -90,7 +90,7 @@ function App() {
               />
             </a>
             <a
-              href="/"
+              href=""
               className="paper"
               onClick={() => handleGameChoice('paper')}
             >
@@ -100,7 +100,7 @@ function App() {
               />
             </a>
             <a
-              href="/"
+              href=""
               className="scissors"
               onClick={() => handleGameChoice('scissors')}
             >
