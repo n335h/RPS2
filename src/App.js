@@ -54,11 +54,9 @@ function App() {
 
   return (
     <div className="App">
-     <h1 className="title">rock, paper, scissors</h1>
+      <h1 className="title">rock, paper, scissors</h1>
       {!gameStarted ? (
-        
         <div id="username-form">
-       
           <img
             className="minilogo"
             src="https://i.ibb.co/SVbwwHw/RPS.png"
@@ -80,9 +78,9 @@ function App() {
         </div>
       ) : (
         <div className="game-container">
-  
           <div className="game-choices">
             <a
+              href="/"
               className="rock"
               onClick={() => handleGameChoice('rock')}
             >
@@ -92,6 +90,7 @@ function App() {
               />
             </a>
             <a
+              href="/"
               className="paper"
               onClick={() => handleGameChoice('paper')}
             >
@@ -101,6 +100,7 @@ function App() {
               />
             </a>
             <a
+              href="/"
               className="scissors"
               onClick={() => handleGameChoice('scissors')}
             >
