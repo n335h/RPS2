@@ -1,3 +1,22 @@
+
+# Rock Paper Scissors
+
+Rock Paper Scissors. Originally a Friday Hackathon for School of Code built with HTML, CSS and JavaScript. I have since transfered it into a React app and added additional functionality. 
+
+
+#Orignal Code
+
+
+
+# Deployed Site 
+https://nhrps.netlify.app/
+
+# Tech Stack
+React.js, HTML, CSS, Netlify
+
+
+_____________________________________________________________________________________________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
