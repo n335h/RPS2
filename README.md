@@ -1,6 +1,9 @@
 
 # Rock Paper Scissors
 
+# Deployed Site 
+https://nhrps.netlify.app/
+
 Rock Paper Scissors. Originally a Friday Hackathon for School of Code built with HTML, CSS and JavaScript. I have since transfered it into a React app and added additional functionality. 
 
 
@@ -10,8 +13,6 @@ Rock Paper Scissors. Originally a Friday Hackathon for School of Code built with
 
 
 
-# Deployed Site 
-https://nhrps.netlify.app/
 
 # Tech Stack
 React.js, HTML, CSS, Netlify
